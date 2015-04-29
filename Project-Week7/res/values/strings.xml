@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">shuhupdaphone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_setup_module">Setup a New Module</string>
+    <string name="title_activity_add_fullschedule">Add all module slots to schedule</string>
+    <string name="title_activity_view_schedule">View Your Schedules</string>
+    
+    <string name="addNewModule">Setup Module</string>
+    <string name="addNewLecture">Add Lecture slot</string>
+    <string name="addNewLab">Add Lab slot</string>
+    <string name="viewSchedule">View Schedule</string>
+    <string name="save">Save</string>
+    <string name="add_slot">Add Slot</string>
+    <string name="moduleHint">Provide a module name</string>
+    <string name="codeHint">Provide a module code</string>
+    <string name="add_full_schedule">Add full schedule</string>
+    <string name="user_name">User Name</string>
+    <string name="preferences">Preferences</string>
+    <string name="information">Information</string>
+    <string name="lecture">Lecture</string>
+    <string name="lab">Lab</string>
+    <string name="start">Start</string>
+    
+
+</resources>

@@ -1,0 +1,48 @@
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+		   
+            <Button
+		        android:id="@+id/addFullSchedule"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/add_full_schedule" />
+		    
+		    <Button
+		        android:id="@+id/addLectureButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/addNewLecture" 
+		        android:layout_below="@+id/addFullSchedule"/>
+		
+		    <Button
+		        android:id="@+id/newModuleButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true"
+		        android:layout_alignParentLeft="true"
+		        android:text="@string/addNewModule" />
+		
+		    <Button
+		        android:id="@+id/viewScheduleButton"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_centerVertical="true"
+		        android:text="@string/viewSchedule" />
+		
+		    <Button
+		        android:id="@+id/addLabButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:text="@string/addNewLab"
+		        android:layout_below="@+id/addFullSchedule" />
+    
+	</RelativeLayout>    
+
+

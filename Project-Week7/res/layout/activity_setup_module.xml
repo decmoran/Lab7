@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/moduleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@+string/moduleHint" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/moduleCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moduleName"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:hint="@+string/codeHint" />
+    
+   
+    <TimePicker
+        android:id="@+id/startTimePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moduleCode"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="24dp" />
+
+    <TimePicker
+        android:id="@+id/endTimePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startTimePicker"
+        android:layout_alignParentRight="true" />
+
+    
+    <Spinner
+        android:id="@+id/daySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/moduleCode" />
+    
+    	<Spinner
+        android:id="@+id/typeSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/daySpinner" />
+    
+    <TextView
+        android:id="@+id/scheduleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/typeSpinner"
+        android:layout_marginTop="20dp"/>
+
+     <Button
+        android:id="@+id/commitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/endTimePicker"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:text="@+string/save" />
+
+    <Button
+        android:id="@+id/addSlotButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/commitButton"
+        android:layout_alignBottom="@+id/commitButton"
+        android:layout_alignParentLeft="true"
+        android:text="@+string/add_slot" />
+</RelativeLayout>
+    </ScrollView>
+    
